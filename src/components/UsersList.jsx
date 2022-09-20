@@ -5,7 +5,7 @@ import { useState } from 'react';
 const UsersList = ({ users, selectUser, getRemove}) => {
 
     return (
-        <div className='list-container opacity'>
+        <div className='list-container'>
             {
                 users.map(user => (
                     <li key={user.id} className='list-item'>
